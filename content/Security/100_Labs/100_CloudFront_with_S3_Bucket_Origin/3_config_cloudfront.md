@@ -19,8 +19,9 @@ Using the AWS Management Console, we will create a CloudFront distribution, and 
 
 4. Specify the following settings for the distribution:
   * In the **Origin Domain Name** field Select the S3 bucket you created previously.
-  * In **Restrict Bucket Access** click the **Yes** radio then click **Create a New Identity**.
-  * Click the **Yes, Update Bucket Policy Button**.
+  * In **Origin access** click the **Legacy access identity** radio then click **Create a New OAI**.
+  *  Click **Create**
+  * In the **Bucket Policy**Click the **Yes, Update Bucket Policy Button** radio.
 
   ![cloudfront-create-distribution-s3-1](/Security/100_CloudFront_with_S3_Bucket_Origin/Images/cloudfront-create-distribution-s3-1.png)
 
